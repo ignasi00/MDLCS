@@ -1,6 +1,6 @@
 # My Deep Learning Custom System
 
-Se pretende realizar un sistema ineficiente pero claro. Cuyo flujo se pueda leer facilmente.
+Se pretende realizar un sistema ineficiente pero claro. Cuyo flujo se pueda leer facilmente.  
 Posteriormente, se mantendra una rama clara y se intentara optimizar trocitos (perfectamente intercambiables en la rama clara);
 Ademas de la rama clara, cada optimizacion tendrá su rama y una rama contendrá la biblioteca más optimizada.
 
@@ -17,6 +17,7 @@ Filosofia básica:
 
 Elementos de un entrenamiento:
 
+
 * Los modelos son ajenos a la biblioteca
 * Los modelos estan descritos en pyTorch
 * Los modelos únicamente devuelven resultados
@@ -26,11 +27,13 @@ Elementos de un entrenamiento:
     * Pedir un método propio del objeto modelo para extraer el resultado
     * Desarrollar un metodo propio del sistema
 
+
 * Las losses son ajenas a la biblioteca
 * Las losses son compatibles con pyTorch
 * Las losses solo requieren un input y un output, elementos adicionales han de ser opcionales
     * Preferiblemente las losses definirán y se clasificarán por el tipo de input, preferiblemente simple. Estandarización
 * Durante el entrenamiento solo se optimiza una loss
+
 
 * Las regularizaciones son ajenas a la biblioteca
 * Las regularizaciones son compatibles con pyTorch
@@ -38,16 +41,19 @@ Elementos de un entrenamiento:
     * Prederiblemente las regularizaciones definirán y se clasificarán por el tipo de input, preferiblemente simple. Estandarización
 * Durante el entrenamiento solo se optimizara una regulrización
 
+
 * Las métricas son ajenas a la biblioteca
 * Las métricas preferiblemente son compatibles con pyTorch
 * Las métricas no son losses aunque las losses pueden ser métricas
 * Las métricas no sirven para entrena
 * Las métricas aparecen en el informe junto a la loss usada
 
+
 * Los algoritmos de entrenamiento son ajenos a la biblioteca
 * Los algoritmos de entrenamiento son compatibles con pyTorch
 * Se garantiza el acceso al objeto modelo durante su creación
     * El usuario debe ajustar el entrenamiento al modelo
+
 
 * El pre y postprocesado son ajenos a la biblioteca
 * Los preprocesados devuelven torch.Tensor y permiten torch.Tesnor como entrada
@@ -56,6 +62,7 @@ Elementos de un entrenamiento:
 * Los postprocesado son compatibles con pyTorch
     * Son concatenables
 * Sería interesante que cada pre y post procesado tenga una linea que los describa (estilo str(modelo\_torch))
+
 
 * Los dataloaders son parte de la biblioteca; pero, se pueden usar dataloaders ajenos
 * Los dataloaders devuelven torch.Tensor
