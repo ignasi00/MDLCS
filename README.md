@@ -86,11 +86,11 @@ Elementos del sistema:
 
 ---
 
-Otras utilidades:
+Utilidades:
 
 * El sistema contiene herramientas para representar los informes generados
-* El sistema contiene herramientas para analizar el modelo
+* El sistema contiene herramientas para analizar el modelo entrenado (desde metricas en diferentes bases de datos hasta estudio de capas)
 * Continene generadores de script bash, no se garantiza su funcionamiento: son modelos a completar
     * Un modelo permite baterias de experimentos desde bash; para casos de seridores con recursos limitados por tiempo
-* El sistema permite comparar modelos
+* El sistema tiene herramientas para comparar modelos ya entrenados
 
