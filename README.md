@@ -92,4 +92,5 @@ Otras utilidades:
 * El sistema contiene herramientas para analizar el modelo
 * Continene generadores de script bash, no se garantiza su funcionamiento: son modelos a completar
     * Un modelo permite baterias de experimentos desde bash; para casos de seridores con recursos limitados por tiempo
+* El sistema permite comparar modelos
 
