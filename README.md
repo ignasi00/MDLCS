@@ -26,6 +26,7 @@ Elementos de un entrenamiento:
 * Ante el interés en resultados intermedios, se pretende usar una de las siguientes opciones:
     * Pedir un método propio del objeto modelo para extraer el resultado
     * Desarrollar un metodo propio del sistema
+* Puede interesar tener modelos de quita y pon, se trabaja en utilidades para eso en un paquete diferente
 
 * Las losses son ajenas a la biblioteca
 * Las losses son compatibles con pyTorch
@@ -93,4 +94,11 @@ Utilidades:
 * Continene generadores de script bash, no se garantiza su funcionamiento: son modelos a completar
     * Un modelo permite baterias de experimentos desde bash; para casos de seridores con recursos limitados por tiempo
 * El sistema tiene herramientas para comparar modelos ya entrenados
+
+---
+
+Ensamblación de modelos:
+
+* Hay un paquete, fuera del sistema básico, que permite definir modelos a partir de cascada de modelos y de modelos en paralelo.
+    * Tambien se considera ofrecer estructuras de modelos conocidos.
 
