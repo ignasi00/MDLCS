@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 
 
-def nothing(self, *x) : return *x
+def nothing(*x) : return *x
 
 class Trainer:
 
