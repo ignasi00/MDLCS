@@ -8,7 +8,7 @@ Ademas de la rama clara, cada optimizacion tendrá su rama y una rama contendrá
 
 Filosofia básica:
 
-* No se pretende escoder/forzar nada relevante en el estudio del Deep Learning
+* No se pretende esconder/forzar nada relevante en el estudio del Deep Learning
 * Se pretende definir un sistema genérico que realmente facilite el estudio de las redes y entrenamientos
     * Se define la lógica que conecta las funciones de procesado, modelo, losses y entrenamiento
     * Se ajusta el sistema de entrenamiento al equipo, mediante configuracion del usuario
